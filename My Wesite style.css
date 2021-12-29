@@ -1,0 +1,66 @@
+@font-face{
+     font-family: 'personalizzato';
+        src: url('AmaticSC-Bold')
+        format('truetype');
+    
+    }
+
+
+body {
+        background-color :lightgray;
+}
+h1 {    color: yellow;
+        font-family: 'personalizzato';
+        font-size: 6em;
+        padding: 30px;
+        font-weight: bold;
+        text-align: center;
+        background-color: transparent;
+    
+}
+img {
+    width: 600px;
+    height: 350px;
+    justify-content: center;
+}
+#menu ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#menu li{
+    float: right;
+}
+
+#menu li a{
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    background-color: #ff9999;
+    width: 150px;
+    padding: 10px;
+}
+
+#menu li ul{
+    display: none;
+}
+
+#menu li:hover a{
+    background-color: black;
+}
+
+#menu li:hover ul{
+    display: block;
+    padding: 0;
+    margin: 0;
+    width: 150px;
+}
+
+#menu li:hover ul li a{
+    background-color: #0176ff;
+}
+
+#menu li:hover ul li{
+    margin: 0;
+}

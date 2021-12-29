@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+#Table ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#Table li{
+    float: left;
+    width: 150px;
+}
+
+#Table li a{
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    background-color: #036;
+    width: 150px;
+    padding: 10px;
+}
+
+#Table li ul{
+    display: none;
+}
+
+#Table li:hover a{
+    background-color: red;
+}
+
+#Table li:hover ul{
+    display: block;
+    padding: 0;
+    margin: 0;
+    width: 150px;
+}
+
+#Table li:hover ul li a{
+    background-color: #0176ff;
+}
+
+#Table li:hover ul li{
+    margin: 0;
+}
